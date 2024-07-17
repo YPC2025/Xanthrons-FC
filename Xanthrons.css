@@ -1,0 +1,52 @@
+body{
+	min-height: 110vh;
+	background-image: url("2.jpg");
+	background-position: center;
+	background-repeat: no repeat;
+	background-size: cover;
+	backdrop-filter: blur(3px);
+}
+.header{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+.body{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Lemon Milk';
+	color: white;
+}
+.body2{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 18px;
+	visibility: collapse;
+	font-family: 'Lemon Milk';
+}
+@media only screen and (max-width: 430px){
+	.header{
+		font-size: 16px;
+	}
+	.body{
+		visibility: collapse;
+	}
+	.body2{
+		visibility: visible;
+	}
+}
+.logo{
+	text-align: center;
+}
+.F1{	
+	width: 50%;
+}
+.friendly{
+	text-align: center;
+}
